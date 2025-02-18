@@ -1,0 +1,23 @@
+.checkbox {
+  width: 12px;
+  height: 12px;
+  border: 1px solid gray;
+
+  &_active {
+    background-image: url('../../../../../../assets/check.svg');
+    background-position: center;
+    background-size: contain;
+  }
+
+  &-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+  }
+
+  &__name {
+    margin: 0;
+    line-height: 120%;
+  }
+}

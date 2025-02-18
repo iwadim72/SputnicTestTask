@@ -1,0 +1,15 @@
+.charts {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: calc(90%);
+    box-sizing: border-box;
+    padding: 0;
+  }
+}
