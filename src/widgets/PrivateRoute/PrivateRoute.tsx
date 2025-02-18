@@ -33,7 +33,6 @@ export const PrivateRoute: React.FC<Props> = ({ children }) => {
   }, [isError]);
 
   if (!token) {
-    console.log("location", location);
     /// Логику обновления токена не релизовываю, не указано в ТЗ
     /// Да и по какой то причине в тестовом api нету проверки auth токена для получения данных
     /// Данные придут даже если ничего не указывать в headers или cookies
