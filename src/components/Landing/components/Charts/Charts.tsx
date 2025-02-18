@@ -45,7 +45,6 @@ const Charts: FC<IChartsProps> = ({ data, setMark }) => {
       setTimeout(() => {
         const userWidthActual = window.innerWidth;
         if (userWidth !== userWidthActual) {
-          console.log("Изменили ширину");
           setUserWidth(userWidthActual);
         }
       }, 50);
