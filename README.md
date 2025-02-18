@@ -1,3 +1,12 @@
+Тестовое задание на вакансию Frontend разработчик.
+Вадим Нуждин - https://togliatti.hh.ru/resume/214eea28ff0e69d2450039ed1f38365576726d
+
+Порядок запуска - 
+1) git clone
+2) npm i
+3) npm run dev
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
